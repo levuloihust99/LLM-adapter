@@ -1,6 +1,14 @@
 PRICE_LOOKUP = {
     "gpt-4o-mini": {"input": 0.15e-6, "output": 0.6e-6},
     "gpt-4o-mini-2024-07-18": {"input": 0.15e-6, "output": 0.6e-6},
+    "gpt-4o-2024-08-06": {
+        "input": 2.5e-6,
+        "output": 10e-6,
+    },
+    "chatgpt-4o-latest": {
+        "input": 5e-6,
+        "output": 15e-6,
+    },
     "gpt-4": {
         "input": 3e-5,
         "output": 6e-5,
